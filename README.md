@@ -9,6 +9,7 @@ The rest of the queries, corresponding to the Aggregation exercises:
 - average amount of each loan per month (3)
 - smallest loan size per month (4)
 - largest loan size per month (5)
+
 can be found on Aggregate_1.txt, Aggregation_2.txt,... correspondingly.
 
 For the Data Analysis resolution there is a jupyter notebook file called Data_Analysis.ypynb along with a Data_Analysis.md

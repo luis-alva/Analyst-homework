@@ -12,7 +12,7 @@ The rest of the queries, corresponding to the Aggregation exercises:
 
 can be found on Aggregate_1.txt, Aggregation_2.txt,... correspondingly.
 
-For the Data Analysis resolution there is a jupyter notebook file called Data_Analysis.ypynb along with a Data_Analysis.md
+For the Data Analysis resolution there is a jupyter notebook file called Data_Analysis.ypynb along with a Data_Analysis.md, located inside the Data_Analysis file.
 
 For the Financial partnerships there is a file called Financial_partnerships.md
 

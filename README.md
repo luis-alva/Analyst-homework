@@ -1,5 +1,5 @@
 # README
-This directory contains the files I used to answer the Product/Analyst homework for Umba's position as financial analyst in Mexico City.
+This directory contains the files I used to answer the Product/Analyst homework.
 
 The first query, regarding the exercise Joining Tables can be found in LoansWithdrawn.txt
 

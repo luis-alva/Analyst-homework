@@ -1,0 +1,6 @@
+--average amount of each loan per month
+
+SELECT to_char(date_trunc('month', created),'Mon-YY'), round(avg(amount),2) as avg_per_month --I rounded the average up to two decimales, if not recommended this can be undone by deleting round()
+FROM loans
+GROUP BY date_trunc('month', created) 
+ORDER BY date_trunc('month', created) Desc

@@ -1,0 +1,6 @@
+--number of loans per month
+
+SELECT to_char(date_trunc('month', created),'Mon-YY') AS mnth, count(id) as month_count
+FROM loans
+GROUP BY date_trunc('month', created) --I did not use the variable mnth as I wanted to show the date format, but order accordingly to standard date
+ORDER BY date_trunc('month', created) Desc

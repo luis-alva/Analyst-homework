@@ -1,0 +1,9 @@
+SELECT loans.id, loans.amount, users.id, users.created, transactions.transaction_fee, transactions.t_type
+FROM loans
+INNER JOIN users
+	ON loans.user_id=users.id
+INNER JOIN transactions	
+	ON loans.id=transactions.loan_id
+WHERE (loans.loan_status = 'active' OR loans.loan_status='repaid')
+	AND transactions.t_type='disbursement'
+ORDER BY users.created DESC;

@@ -1,0 +1,6 @@
+--total amount of all loans per month
+
+SELECT to_char(date_trunc('month', created),'Mon-YY'), sum(amount) as total_per_month
+FROM loans
+GROUP BY date_trunc('month', created) 
+ORDER BY date_trunc('month', created) Desc
